@@ -1,0 +1,7 @@
+date,revenue,department,region,status,owner
+2026-02-01,14000,sales,north,complete,avery
+2026-02-02,,marketing,south,pending,blake
+2026-02-03,9800,operations,east,complete,casey
+2026-02-04,7600,unknown,west,complete,drew
+2026-02-05,8100,finance,central,delayed,elliot
+2026-02-06,6200,support,,complete,frankie

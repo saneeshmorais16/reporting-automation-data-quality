@@ -1,0 +1,7 @@
+Report Date,Sales,Dept,Area,Report Status,Report Owner
+2026-01-03,12000,Sales,North,Complete,Avery
+2026-01-04,8600,Marketing,South,Complete,Blake
+2026-01-05,9100,Operations,East,Pending,Casey
+2026-01-05,9100,Operations,East,Pending,Casey
+not-a-date,5000,Support,West,Complete,Drew
+2026-01-08,-700,Finance,Central,Complete,Elliot
