@@ -29,6 +29,7 @@ Business reporting files can contain inconsistent column names, invalid dates, m
 - Load recurring CSV and Excel files
 - Standardise report columns
 - Clean dates, revenue, department, region, status and owner fields
+- Handles common revenue currency symbols and text labels before numeric parsing
 - Consolidate multiple files into one dataset
 - Generate row-level validation issues
 - Calculate completeness, consistency, duplicate and overall quality scores

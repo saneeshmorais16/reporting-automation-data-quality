@@ -28,7 +28,8 @@ def clean_values(df: pd.DataFrame) -> pd.DataFrame:
     cleaned["revenue"] = (
         cleaned["revenue"]
         .astype(str)
-        .str.replace(r"(GBP|USD|[$,])", "", regex=True)
+        # Reports often mix symbols and text labels, so clean both before numeric parsing.
+        .str.replace(r"(gbp|usd|pounds|£|\$|,)", "", regex=True, flags=re.IGNORECASE)
         .str.strip()
         .replace({"": pd.NA, "nan": pd.NA})
     )
